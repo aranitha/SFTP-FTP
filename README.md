@@ -19,3 +19,6 @@ addgroup --gid <GID> <GROUP_NAME>
 adduser -h <CHROOT_DIRECTORY> -H -u <UID> -G <GROUP_NAME> <USER_NAME>
 # We have to use two seperate commands and these specific arguments because Alpine is using busybox to 
 provide these commands and these are different than user addgroup or adduser you'd find on a fresh Ubuntu.
+
+
+https://www.net7.be/blog/article/isolated_sftp_docker.html
